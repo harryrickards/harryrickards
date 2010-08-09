@@ -1,0 +1,65 @@
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	text-shadow:#CCC 0px 1px 0px;
+	color:#333;
+	background-color:#eee;
+}
+
+#content {
+	width: 970px;
+	margin: 0 auto;
+	background-color:#fff;
+	/*border: solid 1px #ccc;*/
+}
+
+#header {
+	text-align: left;
+	padding-left:180px;
+	background-image:url(assets/header.jpg);
+	height:81px;
+	margin:0px;
+	background-position:left centre;
+	background-repeat:repeat-x;
+	padding:0px 0px 0px 20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#header h1 , #header h2 {display:none;}
+
+#dropdown {
+	height:28px;
+	overflow:hidden;
+	text-align:right;
+	padding-right:20px;
+	padding-top:10px;
+	color:#fff;
+	background-color:#333;
+	text-shadow:#666 0px 1px 0px;
+	font-size:0.9em;
+}
+
+#dropdown a {color:#fff;text-decoration:none;}
+
+#mapcontainer {
+	overflow: hidden; width: 100%; height: 500px;
+}
+
+#footer {
+	color:#999;
+	font-size:0.8em;
+	border-top:solid 1px #ccc;
+	padding-top:10px;
+}
+
+#left {
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#right {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
